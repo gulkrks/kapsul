@@ -4,7 +4,7 @@ import sqlite3
 def veritabani_olustur():
     conn = sqlite3.connect("filmbot.db")
     cursor = conn.cursor()
-
+ 
     # Filmler tablosu
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS filmler (
@@ -101,6 +101,7 @@ def film_puanla(kullanici_id, film_id, puan, yorum=''):
 
 
 if __name__ == '__main__':
+    print("MERHABA")
     veritabani_olustur()
     ornek_filmler_ekle()
     print('\nTüm filmler:')
