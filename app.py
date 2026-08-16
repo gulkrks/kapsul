@@ -3,6 +3,7 @@ from database import (veritabani_olustur, ornek_filmler_ekle,
                       filmleri_listele, ture_gore_filtrele, film_puanla)
 
 def menu():
+    print("test from github")
     print("\n" + "="*50)
     print("  🎬  FİLMBOT - Akıllı Film Öneri Sistemi")
     print("="*50)
