@@ -6,6 +6,7 @@ def menu():
     print("test from github")
     print("\n" + "="*50)
     print("  🎬  FİLMBOT - Akıllı Film Öneri Sistemi")
+    prinr("Deneme yaptım")
     print("="*50)
     print("1. Tüm Filmleri Listele")
     print("2. Türe Göre Filtrele")
